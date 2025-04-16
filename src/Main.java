@@ -35,7 +35,7 @@ public class Main {
                     System.out.print(floor);
                 }
             }
-            System.out.println("Enter to push forward.");
+            System.out.println("\nEnter to push forward.");
             String userInput = in.nextLine();
             //UPDATE THE STATE
             heroPosition++; //move forward
