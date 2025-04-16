@@ -47,8 +47,10 @@ class Entity { //SPRITES SPRITE-SHEETS
 }
 
 class Hero extends Entity { // A Hero is an Entity. "is_a" relationship
+    int health;
     Hero() {
         super("Max", '@', new Position(0)); //0 is the beginning
+        this.health = 100;
     }
 }
 
